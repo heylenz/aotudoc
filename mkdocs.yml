@@ -1,5 +1,6 @@
 site_name: 凹凸外包白皮书
 site_url: https://heylenz.github.io/aotudoc/
+use_directory_urls: false
 nav:
   - 首页: index.md
   - 前期准备:
