@@ -1,0 +1,21 @@
+site_name: 凹凸外包白皮书
+nav:
+  - 首页: index.md
+  - 前期准备:
+      - 软件安装: 软件安装.md
+      - 资源同步: 设置同步.md
+
+  - 动画:
+      - 动画工具: 工具.md
+      - 动画规范: 动画规范.md
+      - 相机使用: 相机.md
+extra:
+    version: 1.0
+
+plugins:
+    - pdf-export:
+        verbose: true
+        media_type: print
+        enabled_if_env: ENABLE_PDF_EXPORT
+
+theme: material
